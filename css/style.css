@@ -26,10 +26,11 @@ header{
     vertical-align: middle;
 }
 
-.container{
+#top-section{
     width: 70%;
     margin: 0 auto;
     background-color: #ffffff;
+    margin-bottom: 5px;
 }
 
 .button{
@@ -51,4 +52,15 @@ header{
     background-color: #ffffff;
     color: #ccd1d5;
     border: #ccd1d5 1px solid;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-left: 35px;
+}
+
+h3{
+    padding-top: 35px;
 }

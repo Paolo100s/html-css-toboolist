@@ -64,3 +64,21 @@ header{
 h3{
     padding-top: 35px;
 }
+
+.item{
+    margin-top: 15px;
+}
+
+.check::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.negative::before{
+    content: "\2613";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
